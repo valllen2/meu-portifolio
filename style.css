@@ -38,5 +38,11 @@ ul, a{
 }
 
 img{
-    
+    width: 200px;;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid rgb(166, 11, 107);;
+    margin: 150px auto 0 auto;
 }
