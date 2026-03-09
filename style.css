@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-
+:root{
+    --primary-color: #0d0d0d;
+    --secondary-color: rgb(247, 114, 187);
+    --branco: white;
+}
 
 *{
     background-color: rgb(0, 0, 0);  
@@ -13,14 +17,14 @@ header{
     width: 100%;        
     z-index: 1000;     
     
-    background-color: #333; 
+    background-color: var(--primary-color); 
     color: white;
     padding: 10px 0px;
     align-items: center; 
 }
 
 header a{
-    color: white;
+    color: var(--branco);
     text-decoration: none;
     font-size: 1rem;
     font-family: sans-serif;
@@ -28,11 +32,11 @@ header a{
 }
 
 header a:hover{
-    color: rgb(247, 114, 187);
+    color: var(--rosa);
 }
 
 ul, a{
-    background-color: #333;
+    background-color: var(--primary-color);
     list-style: none;
     display: flex;
     gap: 20px;
@@ -50,6 +54,10 @@ img{
 }
 
 div{
-    color: rgb(255, 255, 255);
+    color: var(--branco);
 }
 
+h3{
+    color: white;
+    text-align: center;
+}
