@@ -4,6 +4,7 @@
     --primary-color: #0d0d0d;
     --secondary-color: rgb(247, 114, 187);
     --branco: white;
+    --verde: rgb(67, 108, 67);
 }
 
 *{
@@ -69,6 +70,21 @@ h3{
     height: 30px;
     border-radius: 7px;
     border: none;
+
+    align-items: center;
+    text-align: justify;
+}
+
+.bnt1{
+    background-color: (var(--verde));
+    color: white;
+    width: auto;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+
+    align-items: center;
+    text-align: justify;
 }
 
 .btn:hover{
@@ -81,3 +97,4 @@ p{
     color: var(--branco);
     text-align: center;
 }
+
