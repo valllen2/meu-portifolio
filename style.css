@@ -67,8 +67,15 @@ h3{
     color: white;
     width: auto;
     height: 30px;
+    border-radius: 7px;
+    border: none;
 }
 
+.btn:hover{
+    background-color: rgb(247, 114, 187) ;
+    color: var(--primary-color);
+    cursor: pointer;
+}
 
 p{
     color: var(--branco);
